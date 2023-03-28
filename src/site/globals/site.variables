@@ -16,12 +16,12 @@
       Side Bar
 --------------------*/
 @sidebarBackground     : @pageBackground;
-@sidebarMenuItemActiveBackground: rgba(0, 0, 0, 0.2);
+@sidebarMenuItemActiveBackground: #363a4f;
 @sidebarMenuSectionColor: @lightTextColor;
 @sidebarMenuItemColor  : @textColor;
 @sidebarMenuActionColor : @lightTextColor;
 @sidebarMenuActionHoverColor : @primaryColorFocus;
-@sidebarSyncStatusViewBackground: #26292C;
+@sidebarSyncStatusViewBackground: #181926;
 @sidebarSyncStatusViewTextColor: @textColor;
 @sidebarSyncStatusViewDetailColor: @lightTextColor;
 @sidebarScrollbarWidth: 6px;
@@ -38,7 +38,7 @@
 /*-------------------
       Note List Bar
 --------------------*/
-@noteListBarBackground: #34393D;
+@noteListBarBackground: #313244;
 @noteListBarPinnedSectionHeaderBackground: rgba(255, 255, 255, 0.05);
 @noteListBarPinnedSectionHeaderBorderBottom: 1px solid rgba(255, 255, 255, 0.1);
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid rgba(255, 255, 255, 0.2);
@@ -46,11 +46,11 @@
 @noteListViewItemSeparatorBorder: 1px solid @white;
 @noteListViewItemDateColor: @primaryColor;
 @noteListViewItemTagColor: @primaryColor;
-@noteListViewItemActiveBackground: #6987AF80;
+@noteListViewItemActiveBackground: #494d64;
 @noteListViewItemActiveColor: @textColor;
 @noteListViewItemActiveDateColor: @textColor;
 @noteListViewItemActiveTagColor: @textColor;
-@noteListViewItemFocusInnerShadow: inset 0 0 4px rgba(0,0,0,0.8);
+@noteListViewItemFocusInnerShadow: inset 0 0 4px #363a4f;
 @noteSearchBarBackground: @noteListBarBackground;
 @noteSearchBarBorderBottom: 1px solid @white;
 @noteSearchBarInputBorder: none;
@@ -70,9 +70,9 @@
 /*-------------------
       Preferences
 --------------------*/
-@preferencesSidebarBackground: @white;
-@preferencesSidebarItemActiveBackground: #6987AF40;
-@preferencesViewBackground: @offWhite;
+@preferencesSidebarBackground: #1e2030;
+@preferencesSidebarItemActiveBackground: #363a4f;
+@preferencesViewBackground: #24273a;
 
 /*-------------------
       Task Icons
@@ -87,4 +87,4 @@
 --------------------*/
 @taskProgressViewBackgroundColor: rgba(0, 0, 0, 0.3);
 @taskProgressViewForegroundColor: rgba(255, 255, 255, 0.6);
-@taskProgressViewCompletedColor: rgb(50, 205, 50);
+@taskProgressViewCompletedColor: #a6da95;

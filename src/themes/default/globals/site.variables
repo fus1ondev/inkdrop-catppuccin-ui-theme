@@ -82,8 +82,8 @@
 
 /* Input Text Color */
 @inputColor: @textColor;
-@inputPlaceholderColor: darken(@textColor, 40);
-@inputPlaceholderFocusColor: darken(@textColor, 40);
+@inputPlaceholderColor: #939ab7;
+@inputPlaceholderFocusColor: #b8c0e0;
 
 /* Line Height Default For Inputs in Browser (Descenders are 17px at 14px base em) */
 @inputLineHeight: unit((17 / 14), em);
@@ -93,10 +93,10 @@
 --------------------*/
 
 /* Used on inputs, textarea etc */
-@focusedFormBorderColor: #85B7D9;
+@focusedFormBorderColor: #8aadf4;
 
 /* Used on dropdowns, other larger blocks */
-@focusedFormMutedBorderColor: #96C8DA;
+@focusedFormMutedBorderColor: #b7bdf8;
 
 /*-------------------
         Sizes
@@ -121,11 +121,11 @@
         Page
 --------------------*/
 
-@pageBackground      : #2E3235;
+@pageBackground      : #24273a;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
-@textColor           : #DDDDDD;
+@textColor           : #cad3f5;
 
 /*-------------------
       Paragraph
@@ -220,19 +220,19 @@
 --------------------*/
 
 /*---  Colors  ---*/
-@red              : #DB2828;
-@orange           : #C06D36;
-@yellow           : #FBBD08;
+@red              : #ed8796;
+@orange           : #f5a97f;
+@yellow           : #eed49f;
 @olive            : #B5CC18;
-@green            : #21BA45;
-@teal             : #00B5AD;
-@blue             : #2185D0;
-@violet           : #6435C9;
-@purple           : #A333C8;
-@pink             : #E03997;
-@brown            : #A5673F;
-@grey             : #767676;
-@black            : #F9FAFB;
+@green            : #a6da95;
+@teal             : #8bd5ca;
+@blue             : #8aadf4;
+@violet           : #b7bdf8;
+@purple           : #c6a0f6;
+@pink             : #f5bde6;
+@brown            : #ee99a0;
+@grey             : #7f849c;
+@black            : #f4dbd6;
 
 /*---  Light Colors  ---*/
 @lightRed         : #FF695E;
@@ -250,11 +250,11 @@
 @lightBlack       : #545454;
 
 /*---   Neutrals  ---*/
-@fullBlack        : #FFFFFF;
-@offWhite         : #34393D;
-@darkWhite        : #4B5257;
-@midWhite         : #666E74;
-@white            : #2E3235;
+@fullBlack        : #eff1f5;
+@offWhite         : #363a4f;
+@darkWhite        : #45475a;
+@midWhite         : #6e738d;
+@white            : #24273a;
 
 /*--- Colored Backgrounds ---*/
 @redBackground    : #FFE8E6;
@@ -439,9 +439,9 @@
      Neutral Text
 --------------------*/
 
-@darkTextColor               : rgba(255, 255, 255, 0.95);
-@mutedTextColor              : rgba(255, 255, 255, 0.6);
-@lightTextColor              : rgba(255, 255, 255, 0.50);
+@darkTextColor               : #b8c0e0;
+@mutedTextColor              : #a5adcb;
+@lightTextColor              : #cad3f5;
 
 @unselectedTextColor         : rgba(255, 255, 255, 0.4);
 @hoveredTextColor            : rgba(255, 255, 255, 0.8);
